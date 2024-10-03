@@ -1,0 +1,75 @@
+form{
+    width:40%;
+    margin-left:30%;
+    position: relative;
+    background-color: rgb(41, 40, 40);
+    color: #a9a9a9;
+    height:auto;
+    padding-bottom: 70px;
+    margin-top:7%;
+    border:2px solid darkgray;
+}
+
+form input[type=submit]:nth-child(1){
+    background-color:black;
+}
+
+body{
+    background-color: black;
+    padding: 0px;
+    color:white;
+}
+
+#confirm{
+    height:10%;
+    width: 25%;
+    border:2px solid darkgray;
+    border-radius: 4px;
+    background-color: rgb(41, 40, 40);
+    color: darkgray;
+    position:absolute;
+    right: 20%;
+    bottom:10px;
+    margin-top:3%;
+}
+
+#cancel{
+    height:10%;
+    width: 25%;
+    border:2px solid darkgray;
+    border-radius: 4px;
+    background-color: rgb(41, 40, 40);
+    color: darkgray;
+    position:absolute;
+    left: 20%;
+    bottom:10px;
+    margin-top:3%;
+}
+#searchResults {
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    color: #a9a9a9;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+#searchResults td{
+    text-align: center;
+}
+
+#searchResults td, #searchResults th{
+    padding:20px;
+    border-bottom: 2px solid darkgray;
+}
+
+#searchResults th{
+    font-size: 20px;
+}
+
+#cancel:hover{
+    background-color:rgb(87, 87, 87);
+}
+
+#confirm:hover{
+    background-color:rgb(87, 87, 87);
+}

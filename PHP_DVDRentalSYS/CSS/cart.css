@@ -1,0 +1,56 @@
+#cartContainer{
+    width: 30vw;
+    position:absolute;
+    left:35%;
+    margin-top: 5%;
+    color: #a9a9a9;
+    background-color: black;
+}
+
+#cartContainer input[type="submit"]{
+    width:100%; 
+    background-color: rgb(41, 40, 40);
+    border:1px solid rgb(87, 87, 87);
+    padding:1%;
+    color: darkgray;
+    font-size: 20px;
+    margin-top:20px;
+    position: relative;
+    right:8px;
+}
+
+#cartContainer input[type="submit"]:hover{
+    background-color: #5a5a5a;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+#cartContainer #searchResults{
+    width:30vw;
+    margin:0px;
+}
+
+#cartContainer p {
+    position: relative;
+    top:0px;
+}
+
+#cartItems{
+    color: #a9a9a9;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+#cartItems td{
+    border-top:1px solid rgb(87, 87, 87);
+}
+
+#cartItems td, #cartItems th{
+    padding:20px;
+}
+
+#cartItems td:nth-child(odd),#cartItems th:nth-child(odd){
+    background-color: rgb(41, 40, 40)
+}

@@ -1,0 +1,19 @@
+<form action=<?php echo $thisFile ?> method="post">
+
+  <div><label>DVD Title:</label><br> <input type="text" name="Title" value = <?php echo $dvdTitle;?>></div>
+     
+  <div>
+    <label>Category:</label><br> 
+    <SELECT name="categories">
+
+      <option selected hidden value=<?php echo $defaultCategory;?>>
+        <?php echo $defaultCategory;?>
+      </option>
+
+      <?php include '../ManageCategories/getCategories.php'; ?>           
+    </SELECT>
+  </div>
+
+  <input type="submit" name="submitdetails" value="SUBMIT">
+  
+  </form>

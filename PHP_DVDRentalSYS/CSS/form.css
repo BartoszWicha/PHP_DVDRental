@@ -1,0 +1,125 @@
+form:not(#cartContainer form){
+    text-align: left;
+    max-width: 50%;
+    border-radius: 3px;
+    background-color: rgb(41, 40, 40);
+    color: #a9a9a9;
+    margin-left: 25%;
+    padding: 1% 0px 2% 1%;
+    margin-top:-3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+form input{
+    margin-top:1%;
+    margin-left: 1%;
+}
+
+form input[type=text]{
+    background-color: rgb(41, 40, 40);
+    text-decoration: none;
+    border: 2px solid darkgray;
+    color: darkgray;
+    border-radius:4px;
+    height: 20%;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+form select{
+    background-color: rgb(41, 40, 40);
+    text-decoration: none;
+    border: 2px solid darkgray;
+    color: darkgray;
+    border-radius:4px;
+    height: 20%;
+    width: 90%;
+    margin-left:1%;
+    margin-top: 1%;
+}
+
+form select:hover{
+    background-color:rgb(87, 87, 87);
+}
+
+form select:focus{
+    outline:0px;
+}
+
+form input[type=submit]{
+    height:25%;
+    width: 20%;
+    border:2px solid darkgray;
+    border-radius: 4px;
+    background-color: rgb(41, 40, 40);
+    color: darkgray;
+    position:relative;
+    right: -70%;
+    margin-top:3%;
+} 
+
+form label{
+    margin-left:1%; 
+}
+
+form input[type=submit]:hover{
+    background-color:rgb(87, 87, 87);
+}
+
+form input[type=text]:focus{
+    outline: 0px;
+}
+
+#searchResults {
+    width: 51%;
+    background-color: rgb(41, 40, 40);
+    color: #a9a9a9;
+    margin-left: 25%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-top:5%;
+}
+
+#searchResults td:nth-child(even),#searchResults th:nth-child(even){
+    background-color:black;
+}
+
+#searchResults td{
+    text-align: center;
+    border-top:1px solid rgb(87, 87, 87);
+}
+
+#searchResults td, #searchResults th{
+    padding:10px;
+}
+
+#searchResults th{
+    font-size: 20px;
+}
+
+#confirmButtons{
+    position:inherit;
+    width:20%;
+    margin-top:10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#confirmButtons input[type="submit"]{
+    margin:0px;
+    left:0px;
+    width:40%; 
+}
+
+#confirmForm{
+    align-items: center;
+}
+
+.formButton{
+    margin:0px; 
+    width:100%; 
+    padding:10px;
+}

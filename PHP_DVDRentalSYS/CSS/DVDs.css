@@ -1,0 +1,22 @@
+.message{
+    text-align: center;
+    color: #a9a9a9;
+}
+
+table a{
+    text-decoration: none;
+    color: #a9a9a9;
+    display:block;
+}
+
+td:has(a):hover{
+    background-color: #5a5a5a;
+    transition: ease-in-out 0.3s;
+}
+
+.textLink{
+    text-decoration:none;
+    color:#a9a9a9;
+    border-bottom:1px dotted white;
+}
+
